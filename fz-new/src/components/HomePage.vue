@@ -40,7 +40,7 @@
       
       <!-- Additional Images -->
         <center>
-          <img width='100%' alt="Photo by Tano Brock" src="../assets/FZangle.jpg">
+          <img width='100%' alt="Photo by Saban Redzic" src="../assets/fz-moraga.jpeg">
         </center>
       
       <!-- Bandcamp Player -->
@@ -53,7 +53,7 @@
       
       <!-- Additional Images -->
         <center>
-          <img width='100%' alt="Photo by Tano Brock" src="../assets/FZwall.jpg">
+          <img width='100%' alt="Photo by Tano Brock" src="../assets/FZangle.jpg">
         </center>
 
       
