@@ -93,12 +93,13 @@ export default {
 </script>
 
 <style scoped>
-.root {
-}
 .meta-container{ 
     justify-content: center;
-    width: 800px;
+    width: 100%;
+    max-width: 800px;
     background-color: black;
+    display: flex;
+    flex-wrap: wrap;
 }
 .icon-link {
   width: 25px;
@@ -150,6 +151,11 @@ export default {
 }
 .link-colors {
   color: white;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 </style>
 
