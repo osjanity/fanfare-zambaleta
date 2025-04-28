@@ -1,15 +1,26 @@
+<!-- Can uncomment routerlink items in this file if creating a nav bar -->
+
 <template>
-  <HomePage/>
+  <!-- <div>
+    <nav>
+      <RouterLink to="/">Home</RouterLink>
+      <RouterLink to="/greg">Greg</RouterLink>
+    </nav>
+  </div> -->
+  <!-- Renders the right component when router links are triggered-->
+  <RouterView/>
 </template>
 
 <script>
-import HomePage from './components/HomePage.vue'
+import { RouterView } from 'vue-router'
+// import { RouterLink } from 'vue-router'
 import '@fontsource/inter-tight';
 
 export default {
   name: 'App',
   components: {
-    HomePage
+    // RouterLink,
+    RouterView,
   }
 }
 </script>
