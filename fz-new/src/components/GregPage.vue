@@ -24,6 +24,11 @@
         </p>
       </div>
 
+        <!-- Greg side image -->
+        <center>
+          <img width='100%' alt="" src="../assets/gmjside.jpg">
+        </center>
+
       <!-- Booking Info -->
        <div class="booking-container">
         <h1 class="header-font-center">Contact</h1>

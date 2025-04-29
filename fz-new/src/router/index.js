@@ -1,9 +1,9 @@
-import {createRouter,createWebHistory} from 'vue-router';
+import {createRouter,createWebHashHistory} from 'vue-router';
 import HomePage from '../components/HomePage.vue';
 import GregPage from '../components/GregPage.vue';
 
 const router=createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
         {
             path: '/',
