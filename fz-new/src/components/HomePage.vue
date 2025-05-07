@@ -45,10 +45,16 @@
       
       <!-- Bandcamp Player -->
 
-          <h1 class="header-font-center">Listen</h1>
-          <div class="bandcamp-container">
-            <iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=3396076375/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://fanfarezambaleta.bandcamp.com/album/fanfare-zambaleta">Fanfare Zambaleta by Fanfare Zambaleta</a></iframe>
-          </div>
+      <Containter>
+        <div>
+          <h1 class="header-font-center">Listen</h1> 
+        </div>
+        <center>
+        <div class="bandcamp-container">
+          <iframe style="border: 0; width: 350px; height: 588px; margin-right:2.3em;" src="https://bandcamp.com/EmbeddedPlayer/album=3396076375/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://fanfarezambaleta.bandcamp.com/album/fanfare-zambaleta">Fanfare Zambaleta by Fanfare Zambaleta</a></iframe>
+        </div> 
+      </center>
+      </Containter>
 
       
       <!-- Additional Images -->
@@ -57,25 +63,29 @@
         </center>
 
       
-      <!-- Booking Info -->
-       <div class="booking-container">
-        <h1 class="header-font-center">Contact</h1>
-        <p class="paragraph-font-center">
-          For booking, inquiries, and all other questions, please contact
-          <br />
-          Gregory Masaki Jenkins <br /> fanfarezambaleta@gmail.com
-        </p>
-
-      <!-- FB and Youtube icon links -->
-            <a class="link-colors" href="https://www.facebook.com/FanfareZambaleta/">
-              <img class="icon-link" width='25px' alt="Link to FZ Facebook Page" src="../assets/FacebookIcon.png">
-            </a>
-            <a class="link-colors" href="https://www.youtube.com/user/FanfareZambaleta">
-              <img class='icon-link' width='25px'  alt="Link to FZ Youtube Page" src="../assets/YouTubeIcon.png">
-            </a>
+       <Container>
+        <!-- Booking Info -->
+        <div class="booking-container">
+          <h1 class="header-font-center">Contact</h1>
+          <p class="paragraph-font-center">
+            For booking, inquiries, and all other questions, please contact
+            <br />
+            Gregory Masaki Jenkins <br /> fanfarezambaleta@gmail.com
+          </p>
         </div>
 
-      </div>
+        <!-- FB and Youtube icon links -->
+         <div class="icon-link-container">
+              <a class="link-colors" href="https://www.facebook.com/FanfareZambaleta/">
+                <img class="icon-link" width='25px' alt="Link to FZ Facebook Page" src="../assets/FacebookIcon.png">
+              </a>
+              <a class="link-colors" href="https://www.youtube.com/user/FanfareZambaleta">
+                <img class='icon-link' width='25px'  alt="Link to FZ Youtube Page" src="../assets/YouTubeIcon.png">
+              </a>
+          </div>
+    </Container>
+    
+    </div>
   </center>
 </template>
 
@@ -113,6 +123,8 @@ export default {
 .header-font-center {
   color: white;
   text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 .header-font-right {
     color: white;
@@ -146,14 +158,21 @@ export default {
   background-color: black;
 }
 .booking-container {
-  padding: 10px 5% 100px;
+  padding: 10px 100px;
   background-color: black;
 }
 .link-colors {
   color: white;
+  display: inline;
+  width: 100%;
+}
+.icon-link-container {
+  width: 45px;
+  justify-content: center;
+  display: inline-flex;
+  align-items: center;
 }
 img {
-  max-width: 100%;
   height: auto;
   display: block;
 }
