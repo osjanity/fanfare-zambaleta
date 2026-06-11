@@ -5,7 +5,7 @@
     <div class="container-flavor">
       <h1 class="header-font-left">Gregory Masaki Jenkins</h1>
       <p class="paragraph-font-left">
-        is clarinetist, saxophonist, vocalist, and bouzouki player based in Oakland, CA, with a focus in Greek and Balkan styles. He gigs regularly throughout the San Francisco Bay Area with the groups Fanfare Zambaleta, Helios, Istanbul Connection, Dodona, Disciples of Markos, Agapi Mou, and more; and is a regular host of Balkan Sundays events in SF and Berkeley.
+        is clarinetist, saxophonist, vocalist, and bouzouki player based in Oakland, CA, with a focus in Greek and Balkan styles. He gigs regularly throughout the San Francisco Bay Area with the groups Fanfare Zambaleta, Helios Greek Band, Avra, Istanbul Connection, Disciples of Markos, Dodona, Agapi Mou, and more; and is a regular host of Balkan Sundays events in SF and Berkeley.
       </p>
     </div>
 
@@ -14,10 +14,12 @@
 
     <!-- Teaching info -->
     <div class="container-flavor">
-      <h2 class="header-font-left">Teaching</h2>
-      <p class="paragraph-font-left">
-        Greg teaches private lessons in-person and online. Greg also teaches at the <a class="link-colors" href="https://www.eefc.org">Eastern European Folklife Center</a>'s Balkan Music and Dance Workshops in Mendocino, CA and at Lark Traditional Arts' <a class="link-colors" href="https://www.larkcamp.org">Lark in the Morning Music and Dance Camp</a>.
-      </p>
+      <h2 class="header-font-left">Teaching and Workshops</h2>
+      <ul class="paragraph-font-left">
+        <li>Greg teaches private lessons, both in-person in Oakland, CA and online.</li>
+        <li>Greg also teaches at the <a class="link-colors" href="https://www.eefc.org">Eastern European Folklife Center</a>'s Balkan Music and Dance Workshops in Mendocino, CA.</li>
+        <li><a class="link-colors" href="https://www.larktraditionalarts.org/">Lark Traditional Arts</a>' <a class="link-colors" href="https://www.larkcamp.org">Lark in the Morning Music and Dance Camp</a>.</li>
+      </ul>
     </div>
 
     <!-- Greg side image -->
@@ -48,7 +50,7 @@
   flex-direction: column;
   align-items: stretch;
   width: 100%;
-  max-width: 800px;
+  max-width: 870px;
   margin: 0 auto;
   background-color: black;
 }
@@ -87,9 +89,12 @@ p {
   font-size: large;
 }
 .paragraph-font-left {
-  color: rgb(202, 202, 203);
+  color: white;
   text-align: left;
   font-size: large;
+}
+.paragraph-font-left li {
+  margin-bottom: 0.5em;
 }
 .container-flavor {
   padding: 50px 5%;
@@ -106,10 +111,10 @@ p {
 }
 .link-colors {
   color: white;
-  transition: opacity 0.2s;
+  transition: color 0.2s;
 }
 .link-colors:hover {
-  opacity: 0.75;
+  color: rgb(195, 255, 235);
 }
 .email-link {
   color: rgb(202, 202, 203);
@@ -117,6 +122,6 @@ p {
   transition: color 0.2s;
 }
 .email-link:hover {
-  color: white;
+  color: rgb(195, 255, 235);
 }
 </style>
