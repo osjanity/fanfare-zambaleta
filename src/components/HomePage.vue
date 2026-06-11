@@ -11,7 +11,7 @@
 
     <!-- Main text -->
     <div class="container-flavor">
-      <h1 class="header-font-left">Bay Area Balkan Brass</h1>
+      <h1 class="header-font-left">Balkan Brass</h1>
       <p class="paragraph-font-left">
         Fanfare Zambaleta (roughly meaning crazy street party with brass)
         is an eight piece Balkan Brass band specializing in spirited music
@@ -30,6 +30,10 @@
         (trumpets), Rachel MacFarlane, Adam Waite, and Brendan Mauro (mid horns), Evan Stuart (sousaphone)
         and Ivan Velev (percussion, vocals).
       </p>
+      <h1 class="header-font-left">Bay Area</h1>
+      <p class="paragraph-font-left">
+        Fanfare Zambaleta regularly performs publicly and privately around the greater San Francisco Bay Area, including weddings, parties, celebrations, and dance & cultural events.
+      </p>
     </div>
 
     <!-- Additional Image -->
@@ -37,7 +41,7 @@
 
     <!-- Listen Section -->
     <div class="listen-section">
-      <h2 class="header-font-center">Listen</h2>
+      <h1 class="header-font-center">Listen</h1>
       <div class="bandcamp-embed">
         <iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=3396076375/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://fanfarezambaleta.bandcamp.com/album/fanfare-zambaleta">Fanfare Zambaleta by Fanfare Zambaleta</a></iframe>
       </div>
@@ -48,7 +52,7 @@
 
     <!-- Contact Section -->
     <div class="booking-container">
-      <h2 class="header-font-center">Contact</h2>
+      <h1 class="header-font-center">Contact</h1>
       <p class="paragraph-font-center">
         For booking, inquiries, and all other questions, please contact
         <br />
@@ -127,7 +131,8 @@ h1, h2 {
   text-align: left;
 }
 p {
-  line-height: 1.7;
+  line-height: 1.2;
+  margin-bottom: 1.5em;
 }
 .paragraph-font-center {
   color: rgb(202, 202, 203);

@@ -74,7 +74,7 @@ h1, h2 {
   text-align: left;
 }
 p {
-  line-height: 1.7;
+  line-height: 1.2;
 }
 .paragraph-font-center {
   color: rgb(202, 202, 203);
