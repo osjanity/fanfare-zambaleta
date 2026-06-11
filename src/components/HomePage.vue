@@ -6,9 +6,6 @@
       <img class="logo" alt="Logo design by Rosie Steffy" src="../assets/fz_logo_white.jpeg">
     </header>
 
-    <!-- Band image -->
-    <img class="full-width-img" alt="Photo by Jenette Sellin" src="../assets/fz-garden.jpg">
-
     <!-- Main text -->
     <div class="container-flavor">
       <h1 class="header-font-left">Balkan Brass</h1>
@@ -43,7 +40,7 @@
     <div class="listen-section">
       <h1 class="header-font-center">Listen</h1>
       <div class="bandcamp-embed">
-        <iframe style="border: 0; width: 350px; height: 588px;" src="https://bandcamp.com/EmbeddedPlayer/album=3396076375/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="https://fanfarezambaleta.bandcamp.com/album/fanfare-zambaleta">Fanfare Zambaleta by Fanfare Zambaleta</a></iframe>
+        <iframe style="border: 0; width: 700px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3396076375/size=large/bgcol=333333/linkcol=ffffff/artwork=small/transparent=true/" seamless><a href="https://fanfarezambaleta.bandcamp.com/album/fanfare-zambaleta">Fanfare Zambaleta by Fanfare Zambaleta</a></iframe>
       </div>
     </div>
 
@@ -99,12 +96,12 @@ export default {
 }
 .header {
   background-color: black;
-  padding: 20px 0 15px;
+  padding: 22px 0 0;
   display: flex;
   justify-content: center;
 }
 .logo {
-  width: 40%;
+  width: 69.7%;
   height: auto;
   display: block;
 }
@@ -152,7 +149,6 @@ p {
 .container-flavor {
   padding: 50px 5%;
   background-color: black;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
 }
 .listen-section {
   padding: 40px 5% 60px;
