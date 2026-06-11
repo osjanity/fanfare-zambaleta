@@ -35,7 +35,8 @@ export default {
 }
 body, html {
   background-color: rgb(31, 5, 31);
-  margin: 0; 
-  height: 100%; 
+  margin: 0;
+  height: 100%;
+  overscroll-behavior: none;
 }
 </style>
