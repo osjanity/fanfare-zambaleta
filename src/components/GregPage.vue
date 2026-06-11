@@ -5,7 +5,7 @@
     <div class="container-flavor">
       <h1 class="header-font-left">Gregory Masaki Jenkins</h1>
       <p class="paragraph-font-left">
-        is clarinetist, saxophonist, vocalist, and bouzouki player based in Oakland, CA, with a focus in Greek and Balkan styles. He gigs regularly throughout the San Francisco Bay Area with the groups Fanfare Zambaleta, Helios Greek Band, Avra, Istanbul Connection, Disciples of Markos, Dodona, Agapi Mou, and more; and is a regular host of Balkan Sundays events in SF and Berkeley.
+        is clarinetist, saxophonist, vocalist, and bouzouki player based in Oakland, CA, with a focus in Greek and Balkan styles. He gigs regularly throughout the San Francisco Bay Area with the groups Fanfare Zambaleta, Helios Greek Band, Avra, Istanbul Connection, Disciples of Markos, Dodona, Agapi Mou, and more; and is a regular host of Balkan Sundays events in San Francisco and Berkeley, CA.
       </p>
     </div>
 
@@ -19,6 +19,7 @@
         <li>Greg teaches private lessons, both in-person in Oakland, CA and online.</li>
         <li>Greg also teaches at the <a class="link-colors" href="https://www.eefc.org">Eastern European Folklife Center</a>'s Balkan Music and Dance Workshops in Mendocino, CA.</li>
         <li><a class="link-colors" href="https://www.larktraditionalarts.org/">Lark Traditional Arts</a>' <a class="link-colors" href="https://www.larkcamp.org">Lark in the Morning Music and Dance Camp</a>.</li>
+        <li>Greg seasonally hosts a rebetika workshop series and weekend intensive workshops in Oakland, CA or nearby.</li>
       </ul>
     </div>
 
