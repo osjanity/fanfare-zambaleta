@@ -34,10 +34,8 @@ export default {
   color: white;
 }
 body, html {
-  background: linear-gradient(to bottom, rgb(0, 28, 15), rgb(0, 16, 8));
-  background-attachment: fixed;
-  margin: 0;
-  height: 100%;
-  overscroll-behavior: none;
+  background-color: rgb(31, 5, 31);
+  margin: 0; 
+  height: 100%; 
 }
 </style>
